@@ -10,9 +10,6 @@ dependencies = [
     "flask",
 ]
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/pyfunckit"]
-
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
